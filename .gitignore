@@ -1,1 +1,4 @@
-IMDB Dataset.csv
+# Ignorar todos os dados pesados
+/data/raw/*
+/data/processed/*
+/data/vectorized/*
