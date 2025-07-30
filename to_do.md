@@ -1,9 +1,9 @@
 Tarefas:
 ⦁	Refazer pré-processamento: adicionar interpretação de contrações -> Todes
-⦁	Separar analise exploratória e pré-processamento -> Gui
-⦁	Retirar a parte de importar do Drive -> Rebecka e Gui
-⦁	Fazer script para ler do drive -> Rebecka
-⦁	Tokenizar parte Spacy -> Rebecka
+⦁	Separar analise exploratória e pré-processamento -> Gui (FEITO)
+⦁	Retirar a parte de importar do Drive -> Rebecka e Gui  (FEITO)
+⦁	Fazer script para ler do drive -> Rebecka (FEITO)
+⦁	Tokenizar parte Spacy -> Rebecka (FEITO)
 ⦁	Vetorização -> Individual
 	Bag -> Andrew
 	TF-IDF -> Gui

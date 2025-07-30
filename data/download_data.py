@@ -1,11 +1,17 @@
+# Script para fazer o Download do dataset diretamento do Google Drive Público
 import gdown
+import os
 
-# ID do arquivo do Google Drive (entre "/d/" e "/view")
-file_id = "1ABcDxxxxxx7qU9P2Vbxxxxxx"
+# Cria a pasta data/raw se ela não existir
+os.makedirs("data/raw", exist_ok=True)
+
+# ID do arquivo do Google Drive
+file_id = "1w4hMHY2zCsoYQjHE3DCnTmFYRWyBBxmf"
 url = f"https://drive.google.com/uc?id={file_id}"
 
-# Nome do arquivo de saída
-output = "IMDB Dataset.csv"
+# Caminho de saída na pasta data/raw
+output = "data/raw/IMDB_Dataset.csv"
 
-# Baixa o arquivo
+# Faz o download
 gdown.download(url, output, quiet=False)
+print(f"Arquivo salvo em '{output}'")
